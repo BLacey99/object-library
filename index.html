@@ -13,6 +13,19 @@
     <div id="container">
 
     </div>
+    <div id="formContainer">
+        <form onsubmit="return false">
+            <div class="formField"><label>Title *</label><input name="bookTitle" id="bookTitle" type="text" required></div>
+
+            <div class="formField"><label>Author *</label><input name="author" id="author" type="text" required></div>
+
+            <div class="formField"><label>Page Count *</label><input name="pages" id="pages" type="text" required></div>
+
+            <div class="formField"><label>Read?</label><input name="readStatus" id="readStatus" type="checkbox"></div>
+
+            <input type="submit" id="submitBtn">
+        </form>
+    </div>
 </body>
 
 <script src="./library.js"></script>

@@ -1,0 +1,23 @@
+body{
+    background-color:#f6e4b0;
+}
+
+#formContainer{
+    margin-top:5px;
+    text-align:center;
+    width:310px;
+    border:solid 2px black;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    background-color:grey;
+}
+
+.formField{
+    display:flex;
+    flex-direction:column;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
